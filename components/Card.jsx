@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
-import Button from "@mui/material/Button";
+
 import { CiShare2 } from "react-icons/ci";
 import { MdOutlineRemoveRedEye } from "react-icons/md";
 import { CiBookmark } from "react-icons/ci";

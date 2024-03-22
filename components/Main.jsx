@@ -2,13 +2,12 @@
 
 import { useState } from "react";
 import DiscussionForum from "./DiscussionForum";
-import LeftSidebar from "./LeftSideBar";
-import Marketstories from "./Marketstories";
+
+
 import RightBar from "./RightBar";
 import Sidebar from "./Sidebar";
 import Feed from "./Tab";
-import Tabs from "./Tab";
-import Tab from "./Tab";
+
 import { IoMdArrowDropright } from "react-icons/io";
 const Main = () => {
   const [showSidebar, setShowSidebar] = useState(false);

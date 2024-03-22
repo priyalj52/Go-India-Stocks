@@ -1,7 +1,7 @@
 import React from 'react'
 import { Tabs, TabList, TabPanels, Tab, TabPanel,  ChakraProvider } from '@chakra-ui/react'
 import DiscussionForum from './DiscussionForum'
-import Marketstories from './Marketstories'
+
 import RightBar from './RightBar'
 
 
