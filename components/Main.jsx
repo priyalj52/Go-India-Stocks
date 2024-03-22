@@ -17,19 +17,19 @@ const Main = () => {
   return (
     <div className="flex gap-3 items-stretch justify-start w-full min-h-screen ">
       <div
-        className={`flex md:relative absolute  transition ease-in-out delay-400 ${showSidebar?"md:w-1/3 w-1/2 ":"w-0"} `}
+        className={`flex md:relative absolute  transition ease-in-out delay-400 ${
+          showSidebar ? "md:w-1/4 w-1/2 " : "w-0"
+        } `}
         style={{
           zIndex: 20,
           md: { zIndex: 0 },
         }}
       >
-      <Sidebar showSidebar={showSidebar} />
+        <Sidebar showSidebar={showSidebar} />
         <button
           onClick={toggleSidebar}
           className={"bg-[#154C79] h-20 mt-[200px]"}
-
         >
-          
           <IoMdArrowDropright />
         </button>
       </div>
@@ -37,12 +37,11 @@ const Main = () => {
       <div className="flex-1 md:block hidden w-2/3">
         <DiscussionForum />
       </div>
-      <div className=" w-1/3  gap-2   flex-none   md:block hidden">
+      <div className=" w-1/5  gap-2   flex-none   md:block hidden">
         <RightBar />
       </div>
-      <div className="block md:hidden  ">
+      <div className="block md:hidden w-full ">
         <Feed />
-        hii
       </div>
     </div>
   );
