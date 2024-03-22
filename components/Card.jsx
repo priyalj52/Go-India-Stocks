@@ -31,7 +31,7 @@ const Card = () => {
       {data.length > 0 &&
         data?.map((item, index) => (
           <div key={index} className="flex justify-between glass p-3 w-full ">
-            <div className="flex  justify-between">
+            <div className="flex  justify-between w-[90%]">
               <img
                 src={item.img}
                 alt="hi"
@@ -50,7 +50,7 @@ const Card = () => {
                   </button>
                 </div>
                 <div className="text-sm">{item.text}</div>
-                <div className="flex justify-start items-start gap-[2rem]">
+                <div className="flex justify-start items-start md:gap-[2rem] gap-[1rem]">
                   <div className="flex justify-center items-center gap-1 ">
                     <CiHeart /> <span className="text-xs">2k</span>
                   </div>
