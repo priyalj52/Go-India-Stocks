@@ -69,7 +69,7 @@ const Card = () => {
                 </div>
               </div>
             </div>
-            <div className="  text-[2px] text-blue-400  text-wrap ">
+            <div className="  text-xs  text-blue-400  text-wrap ">
               2min ago
             </div>
           </div>

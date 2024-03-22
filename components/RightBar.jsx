@@ -5,7 +5,7 @@ const RightBar = () => {
   return (
     <div className="flex flex-col gap-3">
       <h4
-        className="text-red-400 bg-slate-200 text-nowrap text-start text-xl uppercase  md:block hidden"
+        className="text-red-400 bg-slate-200 text-wrap text-start text-xl uppercase  md:block hidden"
         style={{ width: "fit-content" }}
       >
         Market Stories
