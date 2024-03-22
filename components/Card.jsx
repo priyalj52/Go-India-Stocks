@@ -52,19 +52,19 @@ const Card = () => {
                 <div className="text-sm">{item.text}</div>
                 <div className="flex justify-start items-start gap-[2rem]">
                   <div className="flex justify-center items-center gap-1 ">
-                    <CiHeart /> <span className="text-[2px]">2k</span>
+                    <CiHeart /> <span className="text-xs">2k</span>
                   </div>
                   <div className="flex justify-center gap-1 items-center">
                     <MdOutlineRemoveRedEye />
-                    <span className="text-[2px]">2k</span>
+                    <span className="text-xs">2k</span>
                   </div>
                   <div className="flex justify-center gap-1 items-center ">
                     <CiBookmark />
-                    <div className="text-[2px] text-nowrap">2k comments</div>
+                    <div className="text-xs text-nowrap">2k comments</div>
                   </div>
                   <div className="flex justify-center gap-1 items-center ">
                     <CiShare2 />
-                    <span className="text-[2px]">Share</span>
+                    <span className="text-xs">Share</span>
                   </div>
                 </div>
               </div>
