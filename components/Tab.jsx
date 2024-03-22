@@ -8,8 +8,8 @@ import RightBar from './RightBar'
 
 const Feed = () => {
   return (
-    <ChakraProvider >
-      <Tabs isFitted variant='unstyled'>
+    <ChakraProvider  >
+      <Tabs isFitted variant='unstyled' >
         <TabList mb='1em' className='bg-[#154C79] gap-3' >
           <Tab _selected={{ color: 'white', bg: 'blue.500' }}>Discussion Forum</Tab>
           <Tab _selected={{ color: 'white', bg: 'blue.500' }}>Market Stories</Tab>
