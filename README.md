@@ -1,3 +1,20 @@
+## Go India Stocks- NextJS Frontend- Selection Assignment
+### Instructions:
+<ul>
+  <li>Use git clone or download the zip folder</li>
+  <li> To install the dependencies run command <i>npm install</i> on terminal</li>
+  <li>Run the code by writing <i>npm run dev</i> in terminal</li>
+  <li>Check the site on host link mentioned in terminal (mostly http://localhost:3000/ )</li>
+</ul>
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
